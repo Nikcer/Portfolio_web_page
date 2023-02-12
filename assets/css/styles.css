@@ -1,0 +1,714 @@
+* {
+  margin: 0px;
+  padding: 0;
+  
+
+}
+
+body {
+  font-size: 100%;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+html .decoration{
+  font-family: 'La Belle Aurore', cursive;
+  color: #d2d1d1;
+  font-size: 20px;
+  padding: 0%;
+  display: block;
+  width: 100%;
+  display: inline;
+  font-weight:100;
+}
+
+
+
+
+header {
+  
+  position: relative;
+  background: linear-gradient(to right, rgb(0, 0, 0), #4b4b4b 100%, rgb(100, 100, 100) 100%, rgb(255, 255, 255)10%);
+  padding-top: 1%;
+  height: 100%;
+  width: 100%;
+  padding-left:4%;
+  padding-right: 4%;
+
+  
+}
+
+
+.icons a {
+  padding: 0%;
+  text-decoration: none
+}
+
+
+
+a  svg {
+  color: aliceblue;
+  
+  width: 30px;
+
+  margin-left: 15px;
+
+}
+ 
+.container-fluid a{ 
+  color:red;
+  font-size: 20px;
+  
+} 
+
+
+
+
+.nav-link.active {
+  color: white;
+  font-size: 20px;
+  
+}
+section{
+  display: grid;
+  
+}
+
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 1s;
+  transform: translateX(-100%);
+}
+.show{
+  opacity: 1;
+  transform: translateX(0);
+  filter: blur(0);
+}
+
+
+
+
+.centered {  
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; 
+   
+}
+
+
+.centered h1 {
+  
+  line-height: 4rem;
+  font-weight: bold;
+  font-size: 55px;
+  
+}
+
+ .centeredh1 h1 .first-letter::before {
+  content: "N";
+
+  color: #ff0000;
+  font-size: 60px;
+  text-shadow: -1px 0 0 #ccc, -2px 0 0 #ccc,
+             -3px 0 0 #ccc, -4px 0 0 #ccc,
+             -5px 0 0 #ccc, -6px 0 0 #ccc,
+             -7px 0 0 #ccc, -8px 0 0 #ccc,
+             -9px 0 0 #ccc, -10px 0 0 #ccc,
+             -10px 0 0 #ccc, -10px 0 0 #ccc,
+             -20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.centerh1 {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.cloud img{ 
+   
+  width: 90%;
+  opacity: 15%;
+  
+  padding-right: 10%;
+  float: left;
+}
+
+
+main {
+  
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(75, 75, 75)100%, rgb(100, 100, 100) 100%, rgb(255, 255, 255)10%);
+  
+  padding-top: 10%;
+  padding-left:4%;
+  padding-right: 4%;
+  width: 100%;
+  height:100%; 
+  color: white;
+}
+
+
+
+.text-image-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse; 
+  
+}
+
+.text-image-container img {
+  flex-basis: 20%; 
+  flex-grow: 0; 
+  width: 20%;
+  max-width:30%;
+  min-width: 20%;
+  object-fit:contain;    
+}
+
+
+.aboutme-title h1{
+  padding-top: 20px;
+  
+  font-size: 40px;
+}
+.aboutme-text{
+  padding-top: 0px;
+}
+.aboutme-text p{
+  margin-left: 0%;
+  padding: 0px;
+  padding-right: 10%;
+  font-size: 22px;
+}
+
+.aboutme-text p span {
+  font-size: 22px;
+  color: red;
+}
+
+.projects-title {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 40px ;
+}
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.card{
+  width: 18rem;
+}
+
+.text-form {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  flex-direction: row-reverse; 
+  padding-top: 70px;
+  padding-bottom: 40px;
+  
+}
+
+.contact-text {
+  font-size: 40px;
+  
+  padding-bottom: 20px;
+  
+}
+
+.contact-text p{
+  font-size: 22px;  
+  padding-right: 10px;
+}
+
+.contact-text a {
+  color: red;
+}
+.contact-text a:hover{
+  color: rgb(145, 1, 1);
+}
+
+
+
+
+footer {
+  
+  height: 100%;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(75, 75, 75)100%, rgb(100, 100, 100) 100%, rgb(255, 255, 255)10%);
+  padding: 2%;
+}
+
+
+  
+  
+  
+  
+
+.copyright {
+  text-align:center ;
+  padding-top: 10%;
+  position: relative;
+  
+  top: 80%;
+  bottom: 20px;
+  color: white;
+  font-size: 20px;
+
+}
+
+.upicon {
+  position:fixed;
+  bottom: 15%; 
+  right: 10%;
+  display: none;
+  
+}
+
+.upicon svg{
+  width: 40px;
+  height: 40px;
+}
+
+
+.iconsfoot {
+  position:relative;
+  
+  right: 50;
+  top:50%; 
+  
+}
+
+.iconsfoot a{
+  
+  text-decoration: none
+}
+
+.iconsfoot a svg{
+  width: 50px;
+
+}
+
+/* Gakaxy Fold */
+@media screen and (max-width:299px){
+  
+  .card{
+    width: 100%;
+  }
+
+  header{
+    width: 105%; 
+  }
+  footer{
+    width: 105%;  
+  }
+  main{
+    width: 105%;
+  }
+
+ 
+  #navbar-logo{
+    display: none;
+  }
+  .hidden{
+    opacity: 1;
+    
+    transition: all 0s;
+    transform: translateX(0);
+  }
+  .show{
+    opacity: 1;
+    transform: translateX(0);
+    
+  }
+  .cloud{
+    display: none;
+  }
+
+
+  
+  .centered{
+    padding-top: 4%;
+    height: 100%;
+  }
+  .centered h1 {
+    font-size:40px;
+    line-height: 4rem;
+    
+  }
+
+  .centered h1 p::first-letter{
+    font-size: 50px;
+  }
+
+  
+
+  .card{
+    max-width: 80%;
+    
+  }
+
+ 
+  .text-image-container {
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px; 
+      
+  }
+
+
+  .aboutme-title {
+    text-align: center;
+    font-size: 24px ;
+  }  
+  .aboutme-text {
+      padding-top: 10px;
+      text-align: center;
+      
+  }
+ 
+  .card-container{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card{
+    padding:20px;
+  }
+  #decorationcard{
+    text-align: center;
+  }
+
+  .text-form {
+    flex-direction:column-reverse;
+    text-align: center;  
+    padding-top: 20px;
+    align-items: center;
+    
+  }
+  .text-form form{ 
+    flex-basis: 30%; 
+    flex-grow: 0;  
+    width: 100%;  
+  } 
+
+  .iconsfoot a svg {
+    padding: 10px;
+  }
+
+
+  
+
+  #scrollup {
+    display: none;
+  }
+}
+
+/* mobile Styles */
+@media screen and (min-width: 300px) and (max-width:400px){
+  
+  .card{
+    width: 100%;
+  }
+
+  header{
+    width: 105%; 
+  }
+  footer{
+    width: 105%;  
+  }
+  header{
+    width: 105%; 
+  }
+  footer{
+    width: 105%;  
+  }
+  main{
+    width: 105%;
+  }
+ 
+  #navbar-logo{
+    display: none;
+  }
+  .hidden{
+    opacity: 1;
+    
+    transition: all 0s;
+    transform: translateX(0);
+  }
+  .show{
+    opacity: 1;
+    transform: translateX(0);
+    
+  }
+  .cloud{
+    display: none;
+  }
+
+
+  
+  .centered{
+    padding-top: 4%;
+    height: 100%;
+  }
+  .centered h1 {
+    font-size:40px;
+    line-height: 4rem;
+    
+  }
+
+  .centered h1 p::first-letter{
+    font-size: 50px;
+  }
+
+  
+
+  .card{
+    max-width: 80%;
+    
+  }
+
+  main{
+    width: 100%;
+  }
+
+  .text-image-container {
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px; 
+      
+  }
+
+
+  .aboutme-title {
+    text-align: center;
+    font-size: 24px ;
+  }  
+  .aboutme-text {
+      padding-top: 10px;
+      text-align: center;
+      
+  }
+ 
+  .card-container{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card{
+    padding:20px;
+  }
+  #decorationcard{
+    text-align: center;
+  }
+
+  .text-form {
+    flex-direction:column-reverse;
+    text-align: center;  
+    padding-top: 20px;
+    align-items: center;
+    
+  }
+  .text-form form{ 
+    flex-basis: 30%; 
+    flex-grow: 0;  
+    width: 100%;  
+  } 
+
+  .iconsfoot a svg {
+    padding: 10px;
+  }
+
+
+  
+
+  #scrollup {
+    display: none;
+  }
+
+}
+
+
+
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px)and (max-width: 600px) {
+  #navbar-logo{
+    display: none;
+  }
+  header{
+    width: 100% ;
+   
+  }
+
+  
+  .centered{
+    height: 100%;
+    
+  }
+  .centered h1 {
+    font-size: 70px;
+    line-height: 5rem;
+  }
+
+  .centeredh1 h1 .first-letter::before {
+    font-size: 80px;
+  }
+
+  
+
+  .cloud img {
+    display: none;
+  }
+
+
+  .card{
+    max-width: 80%;
+    
+  }
+
+  .text-image-container {
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+    height: 100%; 
+    padding-bottom: 100px;
+      
+  }
+  .text-image-container img{
+    padding-left: 10%;
+    
+  }
+
+  .aboutme-title {
+    text-align: center;
+  
+  }  
+  .aboutme-text {
+      padding-top: 10px;
+      text-align: center;
+      
+  }
+ 
+  .card-container{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card{
+    padding:20px;
+  }
+  
+  .text-form {
+    flex-direction: column-reverse;
+    align-items: center; 
+    padding-top: 20px;
+    text-align: center;
+  }
+
+
+  .text-form form{ 
+     flex-basis: 30%; 
+    flex-grow: 0;  
+     width: 100%;   
+  }
+  
+  #scrollup {
+    display: none;
+  }
+
+  .upicon {
+    display: none;
+  }
+
+}
+@media only screen and (min-width: 601px)and (max-width: 960px) {
+  #navbar-logo{
+    display: none;
+  }
+  .centered{
+    padding-top: 5%;
+    height: 100%;
+    
+  }
+  .centered h1 {
+    font-size: 110px;
+    line-height: 10rem;
+  }
+
+  .centeredh1 h1 .first-letter::before {
+    font-size: 110px;
+  }
+  .cloud img {
+    display: none;
+  }
+
+
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px)and(max-width: 1099px){
+
+  header {
+    width: 110vh;
+  }
+
+  .centered h1 {
+    font-size: 50px;
+    
+  }
+
+  .centeredh1 h1 .first-letter::before {
+    font-size: 60px;
+  }
+
+  .text-image-container{
+    padding-top: 15%;
+    padding-bottom: 40%;
+  }
+  .projects-title{
+    padding-top: 30%;
+  }
+}
+
+@media only screen and (min-width: 1100px){
+  
+  .centered h1 {
+    font-size: 80px;
+    line-height: 4rem;
+  }
+
+  .centeredh1 h1 .first-letter::before {
+    font-size: 90px;
+  }
+  .text-image-container{
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+}
+
+
+
+
