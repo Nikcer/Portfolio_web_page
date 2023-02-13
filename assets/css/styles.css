@@ -29,7 +29,7 @@ header {
   
   position: relative;
   background: linear-gradient(to right, rgb(0, 0, 0), #4b4b4b 100%, rgb(100, 100, 100) 100%, rgb(255, 255, 255)10%);
-  padding-top: 1%;
+  padding-top: 0;
   height: 100%;
   width: 100%;
   padding-left:4%;
@@ -93,7 +93,7 @@ section{
   align-items: center;
   justify-content: center;
   position: relative;
-  
+  height: 90%;
   width: 100%;
   color: white;
   display: flex;
@@ -346,8 +346,10 @@ footer {
   
   
   .centered{
+    height: 90%;
+    width: 100%;
     line-height: 2.5rem;
-    padding-top: 4%;
+    padding-top: 2%;
   }
   .centered h1 {
     font-size:40px;
@@ -463,7 +465,7 @@ footer {
   
   .centered{
     padding-top: 4%;
-    height: 100%;
+    height: 90%;
     line-height: 5rem;
   }
   .centered h1 {
@@ -561,7 +563,7 @@ footer {
 
   
   .centered{
-    height: 100%;
+    height: 90%;
     padding-top: 15%;
   }
   .centered h1 {
@@ -649,7 +651,7 @@ footer {
   }
   .centered{
     padding-top: 5%;
-    height: 100%;
+    height: 90%;
     
   }
   .centered h1 {
@@ -674,7 +676,9 @@ footer {
   header {
     width: 110vh;
   }
-
+  .centered{
+    height: 90%;
+  }
   .centered h1 {
     font-size: 50px;
     
@@ -695,14 +699,14 @@ footer {
 
 @media only screen and (min-width: 1100px){
   .centered{
-    height: 100%;
+    height: 90%;
     padding-top: 2%;
-    line-height: 1rem ;
+    
   }
   
   .centered h1 {
     font-size: 80px;
-    
+    line-height: 4rem ;
   }
 
   .centeredh1 h1 .first-letter::before {
