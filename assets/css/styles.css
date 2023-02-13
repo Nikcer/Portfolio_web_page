@@ -57,7 +57,7 @@ a  svg {
  
 .container-fluid a{ 
   color:red;
-  font-size: 20px;
+  font-size: 1.2em;
   
 } 
 
@@ -66,7 +66,7 @@ a  svg {
 
 .nav-link.active {
   color: white;
-  font-size: 20px;
+  font-size: 1.2em;
   
 }
 section{
@@ -76,14 +76,14 @@ section{
 
 .hidden{
   opacity: 0;
-  filter: blur(5px);
+  
   transition: all 1s;
   transform: translateX(-100%);
 }
 .show{
   opacity: 1;
   transform: translateX(0);
-  filter: blur(0);
+  
 }
 
 
@@ -123,7 +123,7 @@ section{
              -7px 0 0 #ccc, -8px 0 0 #ccc,
              -9px 0 0 #ccc, -10px 0 0 #ccc,
              -10px 0 0 #ccc, -10px 0 0 #ccc,
-             -20px 0 rgba(0, 0, 0, 0.5);
+             -10px 0 transparent;
 }
 
 .centerh1 {
@@ -168,7 +168,7 @@ main {
   flex-grow: 0; 
   width: 20%;
   max-width:30%;
-  min-width: 20%;
+  min-width: 25%;
   object-fit:contain;    
 }
 
@@ -314,13 +314,14 @@ footer {
   }
 
   header{
-    width: 105%; 
+    width: 106%; 
+  }
+  
+  main{
+    width: 106%;
   }
   footer{
-    width: 105%;  
-  }
-  main{
-    width: 105%;
+    width: 106%;
   }
 
  
@@ -342,15 +343,15 @@ footer {
     display: none;
   }
 
-
+  
   
   .centered{
+    line-height: 2.5rem;
     padding-top: 4%;
-    height: 100%;
   }
   .centered h1 {
     font-size:40px;
-    line-height: 4rem;
+    
     
   }
 
@@ -430,21 +431,16 @@ footer {
   }
 
   header{
-    width: 105%; 
-  }
-  footer{
-    width: 105%;  
-  }
-  header{
-    width: 105%; 
-  }
-  footer{
-    width: 105%;  
+    width: 100%;
+    height: 100vh; 
   }
   main{
-    width: 105%;
+    width:100%;
   }
- 
+  footer{
+    width: 100%;  
+  }
+
   #navbar-logo{
     display: none;
   }
@@ -468,10 +464,12 @@ footer {
   .centered{
     padding-top: 4%;
     height: 100%;
+    line-height: 5rem;
   }
   .centered h1 {
     font-size:40px;
-    line-height: 4rem;
+    
+    
     
   }
 
@@ -558,13 +556,13 @@ footer {
   }
   header{
     width: 100% ;
-   
+    height: 100vh;
   }
 
   
   .centered{
     height: 100%;
-    
+    padding-top: 15%;
   }
   .centered h1 {
     font-size: 70px;
@@ -581,7 +579,9 @@ footer {
     display: none;
   }
 
-
+  #about{
+    height: 100%;
+  }
   .card{
     max-width: 80%;
     
@@ -694,10 +694,15 @@ footer {
 }
 
 @media only screen and (min-width: 1100px){
+  .centered{
+    height: 100%;
+    padding-top: 2%;
+    line-height: 1rem ;
+  }
   
   .centered h1 {
     font-size: 80px;
-    line-height: 4rem;
+    
   }
 
   .centeredh1 h1 .first-letter::before {

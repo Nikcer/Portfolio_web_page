@@ -14,7 +14,7 @@ body {
     margin-left: 16px;
     
     justify-content: space-between;
-    font-weight:bold;
+    font-weight:500;
   }
   #column-left{
     background-color: #e6e6e6;
@@ -42,9 +42,19 @@ body {
     background-color: grey;
     
   }
-  #footresume a svg{
-    width: 25px;
+
+  #footresume a:hover{
+    color: blue;
     
+  }
+  #socialmedia a svg{
+    width: 25px;
+  }
+    
+
+  #socialmedia a {
+    
+    text-decoration: none;
   
   }
   
