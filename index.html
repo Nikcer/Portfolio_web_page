@@ -19,7 +19,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/js/fixedelement.js"></script>
     <script src="assets/js/fadeoutelement.js"></script>
-    <script src="assets/js/scroll-animotion.js"></script>
+    <script src="assets/js/scroll-animation.js"></script>
     
     
     
@@ -95,7 +95,7 @@
         </div>
       </nav>
 
-      <section class="hidden" id="firstpage">
+      <section id="firstpage">
         <p class="decoration">&lt; html &gt; <br>&lt; body &gt; </p>
         <div class="centered">
         
@@ -150,13 +150,14 @@
         
       </section>
         
-      <section class="hidden" ><span class="decoration" style="text-align: center;">&lt;h1&gt;</span>
+      <section><span class="decoration" style="text-align: center;">&lt;h1&gt;</span>
+   
         <div id="projects"class="projects-title" ><h1>My projects</h1></div><span class="decoration"style="text-align: center;">&lt;/h1&gt;</span>
         <span class="decoration" id="decorationcard">&lt;div&gt;</span>
         
-        <div style="background-color: rgb(202, 202, 202); height: 20rem; width: 45rem; padding: 4rem; display: flex; border-radius: 1rem;">
+        <div class="cards">
           <div style="width: 30%;">
-            <img src="assets/images/schermotelefono.png" class="rounded" style="width: 60%;" alt="project immagine">
+            <img src="assets/images/schermotelefono.png" class="rounded" style="width: 50%;" alt="project immagine">
           </div>
           <div style="width: 70%; display: flex; align-items: center; flex-direction: column;line-height: 4em;">
             <h1 style="text-align: center;color: #000;">My Portfolio WebSite</h1>
@@ -165,16 +166,40 @@
           </div>
         </div>
         <br>
-        <div style="background-color: rgb(202, 202, 202); height: 20rem; width: 45rem; padding: 2rem; display: flex; border-radius: 1rem; margin-left: auto;">
+        <div class="cards" style="margin-left: auto;">
           <div style="width: 30%;">
-            <img src="immagine.jpg" alt="Immagine">
+            <img src="assets/images/social_site-7752534_640.jpg" class="rounded" style="width: 100%;" alt="project immagine">
           </div>
-          <div style="width: 70%; display: flex; align-items: center; flex-direction: column;line-height: 4em;">
-            <h1 style="text-align: center;color: #000;">My Portfolio WebSite</h1>
-            <h3 style="text-align: center;color: #000;">My personal site where companies can find me</h3>
-            <a href="" target="_blank" class="btn btn-danger btn-lg" role="button" rel="noopener">GitHub</a>
+          <div style="width: 70%; line-height: 2em;display: flex; align-items: center; flex-direction: column; ">
+            <h1 style="text-align: center;color: #000;">Social site</h1>
+            <h3 style="text-align: center;color: #000;">Where people can tell their own experiences. <br> Made with django</h3>
+            <a href="https://github.com/Nikcer/social_site/tree/master" class="btn btn-danger btn-lg" role="button"target="_blank" rel="noopener" >GitHub</a>
           </div>
         </div>
+        <br>
+        <div class="cards">
+          <div style="width: 30%;">
+            <img src="assets/images/python_logo.png" class="rounded" style="width: 100%" alt="project immagine">
+          </div>
+          <div style="width: 70%; line-height: 2em;display: flex; align-items: center; flex-direction: column; ">
+            <h1 style="text-align: center;color: #000;">Password manager</h1>
+            <h3 style="text-align: center;color: #000;">You can save your password here.<br>Made with Python</br></h3>
+            <a href="https://github.com/Nikcer/password_manager.py/tree/master" class="btn btn-danger btn-lg" role="button"target="_blank" rel="noopener" >GitHub</a>
+          </div>
+        </div>
+        <br>
+        <div class="cards" style="margin-left: auto;">
+          <div style="width: 30%;">
+            <img src="assets/images/python_logo.png" class="rounded" style="width: 100%;" alt="project immagine">
+          </div>
+          <div style="width: 70%; line-height: 2em;display: flex; align-items: center; flex-direction: column; ">
+            <h1 style="text-align: center;color: #000;">Password generator</h1>
+            <h3 style="text-align: center;color: #000;">Password generator made with python</h3>
+            <a href="https://github.com/Nikcer/password_generator/tree/master" class="btn btn-danger btn-lg" role="button"target="_blank" rel="noopener" >GitHub</a>
+          </div>
+        </div>
+        
+        
         <br><span class="decoration" id="decorationcard">&lt;/div&gt;</span>
         
       
@@ -182,7 +207,7 @@
 
       </section>
       
-      <section class="hidden">
+      <section>
         
         <div class="text-form">
           
