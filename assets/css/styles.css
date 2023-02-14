@@ -385,7 +385,7 @@ footer {
  
   .cards{
     max-width: 200px;
-    min-height: ;
+    
     overflow: auto;
     flex-direction: column;
     align-items: center;
@@ -477,7 +477,7 @@ footer {
 
   .cards{
     max-width: 200px;
-    min-height: ;
+    
     overflow: auto;
     flex-direction: column;
     align-items: center;
@@ -627,7 +627,7 @@ footer {
 
   .cards{
     max-width: 200px;
-    min-height: ;
+    
     overflow: auto;
     flex-direction: column;
     align-items: center;
