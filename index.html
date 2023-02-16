@@ -16,8 +16,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>
+
     
     
     
@@ -40,20 +42,20 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 " >
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="#me" target="_blank" style="color: white;">About</a>
+                <a class="nav-link active" href="#me" target="_blank">About</a>
               </li>
               
               <li class="nav-item">
-                <a class="nav-link active" href="#projects" style="color: white;">Portfolio</a>
+                <a class="nav-link active" href="#projects">Portfolio</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link active" href="#contacts" style="color: white;">Contact</a>
+                <a class="nav-link active" href="#contacts">Contact</a>
               </li>
 
             </ul>
@@ -103,17 +105,13 @@
           </div>
           <div class="cloud" >
             
-              <img src="assets/images/wordcloud-space.png" alt="cloud image">
+              <img src="assets/images/wordcloud-space.png" alt="image consist in different programming languages and frameworks.">
             
               
           </div>
-  
-            
-          </div>
           
         </div>
-      
-    
+         
       </section>
       
      
@@ -124,7 +122,7 @@
         <div id="me" class="aboutme-title"><span class="decoration">&lt;h1&gt;</span><h1>Me and I</h1><span class="decoration" ">&lt;/h1&gt;</span></div>       
         <div class="text-image-container"> 
           
-          <img src="assets/images/resume-bordo.jpg" alt="my picture">
+          <img src="assets/images/resume-bordo.jpg" alt="A photo of me, Nicolò Cerra on a white background">
           
           
           <div class="aboutme-text" ><span class="decoration">&lt;p&gt;</span>
@@ -148,28 +146,47 @@
         
       </section>
         
-      <section><span class="decoration" style="text-align: center;">&lt;h1&gt;</span>
+      <section><span class="decoration" id="decorationcard">&lt;h1&gt;</span>
    
-        <div id="projects"class="projects-title" ><h1>My projects</h1></div><span class="decoration"style="text-align: center;">&lt;/h1&gt;</span>
+        <div id="projects"class="projects-title" ><h1>My projects</h1></div><span class="decoration" id="decorationcard">&lt;/h1&gt;</span>
         <span class="decoration" id="decorationcard">&lt;div&gt;</span>
         
         <div class="cards">
-          <div style="width: 30%;">
-            <img src="assets/images/schermotelefono.png"id="cardimg"  class="rounded" style="width: 50%;" alt="project immagine">
+          <div id="30cards">
+            <img src="assets/images/schermotelefono.png" id="cardimg"  class="rounded" alt="The image consists of a phone screen displaying the initial part of the web page of my portfolio. It includes a
+            navigation bar. When viewed froma desktop,
+             it consists of a menu with my name on the left,
+             followed by the links home, about, portfolio,
+              and contact at the top.
+              When viewed from a smartphone,
+              it has a sandwich menu with the same links.  Below the navigation bart,
+              there is the text Hi, I'm Nicolò, a web developer,
+              followed by my current skills: HTML, CSS, and Django.
+              Beneath the skills, there is a contact me
+              button that redirects to the section of the portfolio 
+              where you can send me a message.
+              Above and below the text, HTML tags are present. ">
             
           </div>
-          <div style="width: 70%; display: flex; align-items: center; flex-direction: column;line-height: 4em;">
+          <div id="70cards">
             <h1 style="text-align: center;color: #000;">My Portfolio WebSite</h1>
             <h3 style="text-align: center;color: #000;">My personal site where companies can find me</h3>
             <a href="https://github.com/Nikcer/Portfolio_web_page" class="btn btn-danger btn-lg" role="button"target="_blank" rel="noopener" >GitHub</a>
           </div>
         </div>
         <br>
-        <div class="cards" style="margin-left: auto;">
-          <div style="width: 30%;">
-            <img src="assets/images/social_site-7752534_640.jpg" id="cardimg" class="rounded" style="width: 100%;" alt="project immagine">
+        <div class="cards" id="rightcards"">
+          <div id="30cards">
+            <img src="assets/images/social_site-7752534_640.jpg" id="cardimg" class="rounded" style="width: 100%;" alt="Image of the Social site project,
+             showing a series of white hexagonal icons.
+            The icons are arranged to form a line that crosses the screen diagonally. 
+            The background of the central icons consists of a man writing in a notebook,
+            while the icons in the outermost row are on a blue background.
+            The icons represent different concepts or objects 
+            such as a clock, three gear wheels, a light bulb, diagrams, a house,
+            three overlapping one-dollar bills, and other object icons. ">
           </div>
-          <div style="width: 70%; line-height: 2em;display: flex; align-items: center; flex-direction: column; ">
+          <div id="70cards">
             <h1 style="text-align: center;color: #000;">Social site</h1>
             <h3 style="text-align: center;color: #000;">Where people can tell their own experiences. <br> Made with django</h3>
             <a href="https://github.com/Nikcer/social_site/tree/master" class="btn btn-danger btn-lg" role="button"target="_blank" rel="noopener" >GitHub</a>
@@ -177,21 +194,25 @@
         </div>
         <br>
         <div class="cards">
-          <div style="width: 30%;">
-            <img src="assets/images/python_logo.png" id="cardimg" class="rounded" style="width: 100%" alt="project immagine">
+          <div id="30cards">
+            <img src="assets/images/python_logo.png" id="cardimg" class="rounded" style="width: 100%" alt="The symbol of the Python
+            programming language is a stylized image of two white snakes,
+             in this case, intertwining with each other forming an oval shape">
           </div>
-          <div style="width: 70%; line-height: 2em;display: flex; align-items: center; flex-direction: column; ">
+          <div id="70cards">
             <h1 style="text-align: center;color: #000;">Password manager</h1>
             <h3 style="text-align: center;color: #000;">You can save your password here.<br>Made with Python</br></h3>
             <a href="https://github.com/Nikcer/password_manager.py/tree/master" class="btn btn-danger btn-lg" role="button"target="_blank" rel="noopener" >GitHub</a>
           </div>
         </div>
         <br>
-        <div class="cards" style="margin-left: auto;">
-          <div style="width: 30%;">
-            <img src="assets/images/python_logo.png" id="cardimg" class="rounded" style="width: 100%;" alt="project immagine">
+        <div class="cards" id="rightcards">
+          <div id="30cards">
+            <img src="assets/images/python_logo.png" id="cardimg" class="rounded" style="width: 100%;" alt="The symbol of the Python
+             programming language is a stylized image of two white snakes,
+              in this case, intertwining with each other forming an oval shape">
           </div>
-          <div style="width: 70%; line-height: 2em;display: flex; align-items: center; flex-direction: column; ">
+          <div id="70cards">
             <h1 style="text-align: center;color: #000;">Password generator</h1>
             <h3 style="text-align: center;color: #000;">Password generator made with python</h3>
             <a href="https://github.com/Nikcer/pass_generator/tree/master" class="btn btn-danger btn-lg" role="button"target="_blank" rel="noopener" >GitHub</a>
@@ -210,22 +231,22 @@
         
         <div class="text-form">
           
-          <form class="row g-3" action="" method="post" style="padding-top: 5% ;"><span class="decoration">&lt;form&gt;</span>
+          <form id="my-form" class="row g-3" action="https://formspree.io/f/xknajdkg" method="POST" style="padding-top: 5% ;"><span class="decoration">&lt;form&gt;</span>
   
             <div class="col-md-6">
-              <input type="text" class="form-control"  placeholder="Name" required name="Name">            
+              <input id="name" type="text" class="form-control"  placeholder="Name" required name="Name">            
             </div>
   
             <div class="col-md-6">           
-              <input type="email" class="form-control" placeholder="Email" required name="Email">
+              <input id="email" type="email" class="form-control" placeholder="Email" required name="Email">
             </div>
   
             <div class="">
-              <input type="text" class="form-control" placeholder="Subject" required name="Subject">
+              <input id="subject"type="text" class="form-control" placeholder="Subject" required name="Subject">
             </div>
   
             <div class="mb-3">            
-              <textarea class="form-control" rows="3" placeholder="Message" required name="Message"></textarea>
+              <textarea id="message" class="form-control" rows="3" placeholder="Message" required name="Message"></textarea>
             </div>
                  
             <div class="col-12" style="align-items: end;">
@@ -233,7 +254,9 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
                   <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
                 </svg>
-                Send message!</button>
+                Send message!
+              </button>
+              <p id="my-form-status"></p>
             </div><span class="decoration">&lt;/form&gt;</span>
           </form>
           
