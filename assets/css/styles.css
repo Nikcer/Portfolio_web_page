@@ -203,24 +203,41 @@ main {
 
 .cards{
   align-items: center;
-  background-color: rgb(202, 202, 202); 
+  background-color: rgb(200, 200, 200); 
   max-height: 20rem;
   max-width: 45rem;
   padding: 4rem; 
   display: flex; 
   border-radius: 1rem;
+  text-align: center;
+  color: #000;
 }
 #rightcards{
   margin-left: auto;
 }
 #30cards{
   width: 30%;
+  
 }
 #70cards{
   width: 70%;
   display: flex; 
-  align-items: center; 
-  flex-direction: column;
+  background-color: black;
+  flex-direction: column; 
+}
+
+/* #70cards h1 {
+  text-align: center;
+  color: #000;
+}
+
+#70cards h3 {
+  text-align: center;
+  color: #000;
+} */
+
+#cardimg{
+  width: 80%;
 }
 
 .text-form {
@@ -404,7 +421,7 @@ footer {
   .cards{
     max-width: 200px;
     
-    overflow: auto;
+    padding: 1rem;
     flex-direction: column;
     align-items: center;
   }
@@ -426,6 +443,9 @@ footer {
     flex-grow: 0;  
     width: 100%;  
   } 
+  .contact-text{
+    width: 80%;
+  }
 
   .iconsfoot a svg {
     padding: 10px;
@@ -471,16 +491,6 @@ footer {
   .cloud{
     display: none;
   }
-
-  .cards{
-    max-width: 200px;
-    
-    overflow: auto;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
 
   .text-image-container {
     flex-direction: column;
@@ -550,7 +560,11 @@ footer {
   
 
   .card{
-    padding:20px;
+    max-width: 200px;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+
   }
   #decorationcard{
     text-align: center;
@@ -667,7 +681,7 @@ footer {
   .cards{
     max-width: 200px;
     
-    overflow: auto;
+    padding: 1rem;
     flex-direction: column;
     align-items: center;
   }
@@ -759,11 +773,9 @@ footer {
 
   .text-image-container{
     padding-top: 15%;
-    padding-bottom: 40%;
+    padding-bottom: 10%;
   }
-  .projects-title{
-    padding-top: 30%;
-  }
+ 
 }
 
 @media only screen and (min-width: 1100px){
@@ -783,7 +795,7 @@ footer {
   }
   .text-image-container{
     line-height: 3rem;
-    padding-bottom: 40%;
+    padding-bottom: 10%;
   }
 }
 
