@@ -22,7 +22,10 @@ body {
   font-weight:100;
 }
 
-
+#nc-icon{
+  width: 36px;
+  height: 32px;
+}
 
 
 header {
@@ -226,15 +229,6 @@ main {
   flex-direction: column; 
 }
 
-/* #70cards h1 {
-  text-align: center;
-  color: #000;
-}
-
-#70cards h3 {
-  text-align: center;
-  color: #000;
-} */
 
 #cardimg{
   width: 80%;
@@ -253,7 +247,7 @@ main {
 
 .contact-text {
   font-size: 1.37em;
-  
+  width: 80%;
   padding-bottom: 1.25rem;
   
 }
