@@ -227,6 +227,7 @@ main {
   display: flex; 
   background-color: black;
   flex-direction: column; 
+  color: #000;
 }
 
 
