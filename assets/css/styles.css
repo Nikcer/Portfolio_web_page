@@ -22,7 +22,10 @@ body {
   font-weight:100;
 }
 
-
+#nc-icon{
+  width: 36px;
+  height: 32px;
+}
 
 
 header {
@@ -36,6 +39,7 @@ header {
 
   
 }
+
 
 
 .icons a {
@@ -161,7 +165,7 @@ main {
   flex-direction: row-reverse; 
   
   
-  padding-bottom: 40%;
+  padding-bottom: 5%;
   
 }
 
@@ -201,13 +205,33 @@ main {
 
 
 .cards{
-  
-  background-color: rgb(202, 202, 202); 
+  align-items: center;
+  background-color: rgb(200, 200, 200); 
   max-height: 20rem;
   max-width: 45rem;
   padding: 4rem; 
   display: flex; 
   border-radius: 1rem;
+  text-align: center;
+  color: #000;
+}
+#rightcards{
+  margin-left: auto;
+}
+#30cards{
+  width: 30%;
+  
+}
+#70cards{
+  width: 70%;
+  display: flex; 
+  background-color: black;
+  flex-direction: column; 
+}
+
+
+#cardimg{
+  width: 80%;
 }
 
 .text-form {
@@ -223,7 +247,7 @@ main {
 
 .contact-text {
   font-size: 1.37em;
-  
+  width: 80%;
   padding-bottom: 1.25rem;
   
 }
@@ -347,6 +371,7 @@ footer {
     width: 100%;
     line-height: 2.5rem;
     padding-top: 2%;
+    
   }
   .centered h1 {
     font-size:40px;
@@ -357,11 +382,6 @@ footer {
   .centered h1 p::first-letter{
     font-size: 50px;
   }
-
-  
-
- 
-
  
   .text-image-container {
     flex-direction: column;
@@ -395,7 +415,7 @@ footer {
   .cards{
     max-width: 200px;
     
-    overflow: auto;
+    padding: 1rem;
     flex-direction: column;
     align-items: center;
   }
@@ -417,6 +437,9 @@ footer {
     flex-grow: 0;  
     width: 100%;  
   } 
+  .contact-text{
+    width: 80%;
+  }
 
   .iconsfoot a svg {
     padding: 10px;
@@ -436,8 +459,7 @@ footer {
   
 
   header{
-    width: 100%;
-    height: 100vh; 
+    width: 100%;    
   }
   main{
     width:100%;
@@ -464,38 +486,6 @@ footer {
     display: none;
   }
 
-
-  
-  .centered{
-    padding-top: 2%;
-    height: 90%;
-    line-height: 3rem;
-  }
-  .centered h1 {
-    font-size:40px;
-    
-    
-    
-  }
-
-  .centered h1 p::first-letter{
-    font-size: 50px;
-  }
-
-  
-
-  .cards{
-    max-width: 200px;
-    
-    overflow: auto;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  main{
-    width: 100%;
-  }
-
   .text-image-container {
     flex-direction: column;
     align-items: center; 
@@ -520,21 +510,61 @@ footer {
       text-align: center;
       
   }
-  #cardimg{
-    display: none;
+  .centered{
+    height: 90%;
+    width: 100%;
+    line-height: 3rem;
+    padding-top: 2%;
+    
   }
- 
-  .card-container{
-    display: flex ;
-    flex-direction: column;
-    align-items: center;
+  .centered h1 {
+    font-size:40px;
+    
+    
   }
 
+  .centered h1 p::first-letter{
+    font-size: 50px;
+  }
+ 
+  .text-image-container {
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px; 
+      
+  }
+
+  .text-image-container img {
+    flex-basis: 50%;
+    max-width: 80%;
+    min-width: 60%;
+    margin-bottom: 20px;
+  }
+
+
+  .aboutme-title {
+    text-align: center;
+    font-size: 24px ;
+  }  
+  .aboutme-text {
+      padding-top: 10px;
+      text-align: center;
+      
+  }
+  
+
   .card{
-    padding:20px;
+    max-width: 200px;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+
   }
   #decorationcard{
     text-align: center;
+  }
+  #cardimg{
+    display: none;
   }
 
   .text-form {
@@ -645,7 +675,7 @@ footer {
   .cards{
     max-width: 200px;
     
-    overflow: auto;
+    padding: 1rem;
     flex-direction: column;
     align-items: center;
   }
@@ -737,11 +767,9 @@ footer {
 
   .text-image-container{
     padding-top: 15%;
-    padding-bottom: 40%;
+    padding-bottom: 10%;
   }
-  .projects-title{
-    padding-top: 30%;
-  }
+ 
 }
 
 @media only screen and (min-width: 1100px){
@@ -761,7 +789,7 @@ footer {
   }
   .text-image-container{
     line-height: 3rem;
-    padding-bottom: 40%;
+    padding-bottom: 10%;
   }
 }
 
