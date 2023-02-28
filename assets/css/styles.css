@@ -246,11 +246,18 @@ main {
   
 }
 
+#my-form{
+  padding-top: 5% ;
+}
+
 .contact-text {
   font-size: 1.37em;
-  width: 80%;
+  width: 100%;
   padding-bottom: 1.25rem;
   
+}
+#decoration-contact{
+  font-size: 1em;
 }
 
 .contact-text p{
